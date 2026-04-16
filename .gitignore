@@ -1,0 +1,24 @@
+# Ignore build outputs
+build/
+Binaries/
+
+# Ignore IDE files
+.metadata/
+
+# Ignore VM (VERY IMPORTANT)
+vm1/
+
+# Ignore compiled files
+*.o
+*.elf
+*.bin
+
+# Allow source files
+!AGM/src/
+!AGM/src/**/*.c
+!AGM/src/**/*.h
+
+# Allow important files
+!Makefile
+!run_agm.sh
+!README.md
